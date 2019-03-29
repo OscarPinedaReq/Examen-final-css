@@ -1,0 +1,106 @@
+
+body{
+  background-color: #02010a;
+  font-family: 'Dancing Script', cursive;
+
+}
+header{
+  background-color: #5b7989;
+  border-radius: 10px 10px 0 0;
+  padding: 0 10px 0 10px;
+}
+header h1 {
+  text-align: left;
+  color: white;
+  text-shadow:  2px 2px 2px #02010a;
+}
+img{
+  box-shadow: black 2px;
+  border: 2px;
+}
+nav a{
+  text-align: right;
+  color: white;
+}
+#contenedor1{
+  background-color: #82c3a6;
+  text-align: center;
+  padding: 25px 0 25px 0;
+
+}
+#contenedor2{
+  background-color: #d5c75f;
+  border: 1px;
+  display: flex;
+  flex-flow: row wrap;
+}
+.bloque1{
+  width: 50%;
+  text-align: center;
+  padding-top: 25px;
+  border: 2px;s
+  box-shadow: black 2px;
+}
+.bloque2{
+  width: 50%;
+  text-align: center;
+  padding-top: 25px;
+  border: 2px;
+}
+.bloque1:hover{
+  transform: rotate(10deg);
+  transition: 2s;
+  color: #82c3a6;
+  border: 2px;
+  box-shadow: black 2px;
+}
+.bloque2:hover{
+  transform: translate(5px, 20px);
+  transition: 2s;
+}
+.piepagina{
+  border-radius: 0 0 10px 10px;
+  background-color: #C6d5c5;
+  display: flex;
+  flex-flow: row wrap;
+}
+.contacto{
+  width: 25%;
+}
+.termino{
+  width: 25%;
+}
+.redessociales{
+  width: 25%;
+}
+.derechos{
+  width: 25%;
+}
+.social{
+  border-radius: 10px;
+  width: 50px;
+  height: 50px;
+}
+@media only screen and (max-width: 900px) {
+  .bloque2 {
+  width: 100%;
+  }
+  .bloque1 {
+  width: 100%;
+  }
+  .contacto{
+    width: 100%;
+  }
+  .termino{
+    width: 100%;
+  }
+  .redessociales{
+    width: 100%;
+  }
+  .derechos{
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 900px) {
+
+}
